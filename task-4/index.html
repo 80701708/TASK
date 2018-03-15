@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css\normalize.css">
+    <link rel="stylesheet" href="css/base.css">
+    <style>
+        /* 顶部开始 */
+
+        header {
+            width: 100%;
+            height: 4rem;
+            background: #5fc0cd;
+            position: relative;
+        }
+
+        header h2 {
+            color: #ffffff;
+            position: absolute;
+            left: 50%;
+            font-size: 1.8rem;
+            width: 6rem;
+            margin-left: -3rem;
+            text-align: center;
+            line-height: 4rem;
+        }
+
+        header a:first-child {
+            position: absolute;
+            left: 2rem;
+            line-height: 4rem;
+            font-size: 1.5rem;
+        }
+
+        header a:last-child {
+            position: absolute;
+            right: 2rem;
+            line-height: 4rem;
+            font-size: 1.5rem;
+        }
+
+        /* 顶部结束 */
+
+        /* 表单开始 */
+
+        form div {
+            width: 100%;
+            padding-left: 6.6rem;
+            padding-top: 0.5rem;
+            height: 4rem;
+            margin-top: 0.8rem;
+            background-size: 1.6rem 2.4rem;
+            box-sizing: border-box;
+        }
+
+        .phone {
+            background: #fff url(images/phone.png) 2.5rem center no-repeat;
+            background-size: 1.6rem 2.4rem;
+        }
+
+        .lock {
+            background: #fff url(images/lock.png) 2.5rem center no-repeat;
+            background-size: 1.6rem 2.4rem;
+        }
+
+        form input {
+            height: 3rem;
+            border: none;
+            outline: none;
+            padding-left: 2rem;
+            border-left: 0.2rem solid #eaedee;
+        }
+
+        button {
+            width: 100%;
+            height: 4rem;
+            background: #5fc0cd;
+            margin-top: 3rem;
+            border: none;
+            font-size: 2.5rem;
+            line-height: 4rem;
+            color: #fff;
+        }
+
+        /* 表单结束 */
+        /* 忘记密码开始 */
+        .forget a{
+            line-height: 5rem;
+            font-size: 1.5rem;
+            color: #5fc0cd;
+            float: right;
+            margin-right: 1rem;
+        }
+        /* 忘记密码结束 */
+        
+    </style>
+
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- 顶部开始 -->
+    <header>
+        <a href="#">关闭</a>
+        <h2>登录</h2>
+        <a href="#">注册</a>
+    </header>
+    <!-- 顶部结束 -->
+    <!-- 表单开始 -->
+    <form action="">
+        <div class="phone">
+            <input type="text" placeholder="请输入手机号">
+        </div>
+        <div class="lock">
+            <input type="text" placeholder="请输入密码">
+        </div>
+        <button>登录</button>
+    </form>
+    <!-- 表单结束 -->
+    <!-- 忘记密码开始 -->
+    <div class="forget"><a href="#">忘记密码？</a></div>
+    <!-- 忘记密码结束 -->
+</body>
+
+</html>
