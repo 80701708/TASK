@@ -1,0 +1,54 @@
+html{
+    height: 100%;/*解决高度全屏 */
+}
+body{
+   font-family:"宋体";
+   font-size: 62.5%;
+   margin: 0;
+   padding: 0;
+   height: 100%;/*解决高度全屏 */
+}
+.content{
+font-size: 1.2rem;
+background: #68cdd5;
+width: 100%;
+height: 100%;/*解决高度全屏 */
+margin: 0 auto;
+color:white;
+}
+.top img{
+margin-top: 2%;
+margin-left: 2%;
+width: 3rem;
+height: 3rem;
+}
+.header img{
+display:block;
+width: 10rem;
+height: 4rem;
+margin: 6rem auto;
+}
+.content p{
+line-height: 2rem;
+margin: 0 10% 10%;
+}
+.foot-l{
+float: left;
+margin: 0 0 0 10%;
+}
+.foot-r{
+float: right;
+margin: 0 10% 0 0;
+}
+footer img{
+    width: 4rem;
+    height: 4rem;
+}
+footer p{
+text-align: center;
+}
+.clearfix:after{  /*清除浮动*/
+content: '';
+display: block;
+clear: both;
+}
